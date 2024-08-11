@@ -1,6 +1,6 @@
 class CfgVehicles {
-    class Helicopter_Base_H;
-    class lsd_laat_base: Helicopter_Base_H {
+    class ls_laati_base;
+    class ls_laati_airborne: ls_laati_base {
         EGVAR(staticLine,enabled) = 1;
         EGVAR(staticLine,condition) = QUOTE(true);
     };

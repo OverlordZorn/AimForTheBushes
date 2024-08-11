@@ -9,7 +9,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             QUOTE(ADDON),
-            "lsd_vehicles_heli"
+            "ls_loadOrder"
         };
         units[] = {};
         weapons[] = {};
